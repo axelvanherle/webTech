@@ -3,17 +3,26 @@
 Dit is de code waar ik de verschillende tools van markdown aan het uittesten ben. Er is niks specefiek gemaakt, gewoon ermee gespeelt.
 <br></br>
 ***
-Deze tekst is normaal
-_Deze tekst is italic_
-**Deze tekst is bold**
-_**Deze tekst is beide**_
-~~En deze is blijkbaar fout.~~
-==en deze is gemarkeert.==
-Deze tekst is ~subscript~
-En deze ^superscript^
+Deze tekst is normaal  
+
+_Deze tekst is italic_  
+
+**Deze tekst is bold**  
+
+_**Deze tekst is beide**_  
+
+~~En deze is blijkbaar fout.~~  
+
+==en deze is gemarkeert.==  
+
+Deze tekst is ~subscript~  
+
+En deze ^superscript^  
+
 >Dit is een blockquote
->Met 2 lijnen!
->>en een nested **quote**
+>Met 2 lijnen!  
+>>en een nested **quote**  
+
 ***
 
 
