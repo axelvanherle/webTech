@@ -98,6 +98,7 @@ ___
 <br></br>
 <p style="color:blue">Deze tekst is blauw</p>
 <font color="red">En deze is rood</font>  
+ 
 ps: werkt wel niet aaltijd
 
 [En dit zie je alleen als je naar de code kijkt!]: # 
