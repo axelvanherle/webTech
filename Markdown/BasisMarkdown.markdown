@@ -60,11 +60,15 @@ En deze ^superscript^
 3. cool he!  
 ***
 <br></br>
-Ga naar [mijn **github!**](https://github.com/axelvanherle)
-Beweeg je muis over [_mij_](https://github.com/axelvanherle "Je gaat nog steeds naar mijn github als je op me klikt.")
-een andere manier voor links te laten zien: <https://github.com/axelvanherle>
-<axelvanherle@outlook.com>  stuur me een mailtje!
-Wat! Een niet automatishe link??? `https://github.com/axelvanherle`
+Ga naar [mijn **github!**](https://github.com/axelvanherle)  
+
+Beweeg je muis over [_mij_](https://github.com/axelvanherle "Je gaat nog steeds naar mijn github als je op me klikt.")  
+
+een andere manier voor links te laten zien: <https://github.com/axelvanherle>  
+
+<axelvanherle@outlook.com>  stuur me een mailtje!  
+
+Wat! Een niet automatishe link??? `https://github.com/axelvanherle`  
 
 Als je veel tekst hebt is het mooier om links op een andere manier te noteren. Dit doe je zo! ps: je gaat nog aaltijd naar [_mijn github_][1]  
 
