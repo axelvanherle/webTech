@@ -61,7 +61,8 @@ Als je veel tekst hebt is het mooier om links op een andere manier te noteren. D
 
 [1]: https://github.com/axelvanherle "ps: het is echt mijn github hoor"  
 <br></br>
-Hier is een afbeelding van een oerang oetang
+Hier is een afbeelding van een oerang oetang  
+
 ![Een aap! Mooi he](https://kuscheltiere.biz/media/5992/catalog/orang-utan-jasinga-mit-baby-pluschtier-menschenaffe-30-cm.jpg?size=256 "mooi he") 
 <br></br>
 `Tekst in een blokje!`  
