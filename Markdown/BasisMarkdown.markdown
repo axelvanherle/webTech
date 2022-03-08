@@ -83,7 +83,8 @@ Hier is een afbeelding van een oerang oetang
 ***
 ---
 ___
-\***
+\***  
+
 ^ dat was geen lijst omdat ik \ ervoor heb gezet.  
 <br></br>
 | Dit is      | een | tafel|
