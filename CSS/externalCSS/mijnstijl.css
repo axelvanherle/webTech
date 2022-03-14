@@ -1,0 +1,41 @@
+/* Mijn document waar de code van de CSS inzit. */
+
+body {
+    background-color: antiquewhite;
+}
+
+h1.titel {
+    text-align: center;
+    border: 2px dotted burlywood;
+    color: saddlebrown;
+}
+
+div.intro {
+    background-color: saddlebrown;
+    opacity: 0.8;
+    color: antiquewhite;
+}
+
+div.aapafb {
+    background-image: url(monkey.png);
+}
+
+p.intro {
+    text-align: center;
+}
+
+div.rondeborder {
+    margin: 100px;
+    border: 5px solid saddlebrown;
+    border-radius: 100px;
+    text-align: center;
+    background-color: burlywood;
+}
+
+div.boxmodel{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid saddlebrown;
+    padding: 50px;
+    margin: 20px;
+}
