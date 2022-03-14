@@ -2,52 +2,57 @@
 <html lang="nl">
     <head>
         <title>De basics.</title>
+
+        <style>
+            #borderintro {
+                background-color:lightgray; 
+                border-style: solid; 
+                border-color: gray; 
+                border-style: solid; 
+                text-align: centre;
+            }
+        </style>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
-        <h1>De basics van HTML.</h1>
-        <h3>Een document voor webtechnologie van Axel Vanherle.</h3>
-        <p>Hier oefen ik op de basis dingen van HTML. ik orden alles onder een header zodat je duidelijk ziet wat ik ga oefenen.</p>
-        <hr>
-        <h1>Afbeeldingen en links</h1>
-        <p>Ik ga links en afbeeldingen hier plakken.</p>
-        <a href="https://google.com/">Ga naar google.</a>
-        <br>
-        <p>Een afbeelding van een aap die lokaal opgeslagen is:</p>
-        <img src="aap.jpg" alt="Je hebt de afbeelding niet lokaal opgeslagen!" width="259" height="194">
+        <div class="container p-3 my-3 border">
+            <h1>Mijn eerste bootstrap code.</h1>
+            <p>Dit zit in een fixed container.</p>
+        </div>
 
-        <br>
-        <p>Een afbeelding van een aap die gehost is op wikipedia:</p>
-        <img src="https://www.aap.nl/wp-content/uploads/2021/08/AAP_chimpsoortinfo_profileA.jpg" alt="Hier zou de afbeelding moeten zijn." width="259" height="259">
-        
-        <p>Een afbeelding die niet geladen is:</p>
-        <img src="FouteSpelling.jpg" alt="oeps! ik ben niet geladen" width="20" height="20">
+        <div class="container-fluid  p-3 my-3 bg-dark text-light">
+            <h1>Dit is mijn tweede stukje code</h1>
+            <p>En dit is een fluid container.</p>
+        </div> 
 
-        <hr>
-        <h1>Soort van basics.</h1>
-        <p>Hier experimenteer ik met Attributen, Paragraafen,...</p>
-        <p>Je kan ook borders toevoegen!</p>
-        <p title="hallo">Beweeg je muis over mij!</p>
-        <br>
-        <pre>
-         Test    Test
-            <a title="hallo">en over mij!</a>
-sfsfsd
-    sfdfds
-        </pre>
-        <br>
-        <h2>Nog een beetje meer experimenteeren.</h2>
-        <p>Deze tekst is normaal.</p>
-        <p><b>Deze tekst is bold.</b></p>
-        <p><strong>Deze tekst is strong.</strong></p>
-        <p><i>Deze tekst is italic.</i></p>
-        <p><em>Deze tekst is emphasized</em></p>
-        <p><small>Deze tekst is klein!</small></p>
-        <p><mark>Deze tekst is gemarkeerd.</mark></p>
-        <p><del>Door deze tekst zit een streep.</del></p>
-        <p><ins>Deze tekst is underlined.</ins></p>
-        <p>Deze tekst is <sub>Subscript.</sub></p>
-        <p>En deze is <sup>Superscript.</sup></p>
-        <!-- En dit is een comment. -->
+        <div class="row">
+            <div class="col-sm-3" id="borderintro">Nu zie je</div>
+            <div class="col-sm-3" id="borderintro">3 gelijk verdeelde</div>
+            <div class="col-sm-3" id="borderintro">collums.</div>
+            <div class="col-sm-3" id="borderintro">maak je scherm eens kleiner!</div>
+        </div>
         
+        <div class="container p-3 m-3 border">
+
+            <b>Dit zijn de normale headers in HTML met bootstrap.</b>
+            <h1>h1 heading</h1>
+            <h2>h2 heading</h2>
+            <h3>h3 heading</h3>
+            <h4>h4 heading</h4>
+            <h5>h5 heading</h5>
+            <h6>h6 heading</h6>
+          </div>
+          
+        <div class="container p-3 m-3 border">
+            <b>Dit zijn display headers van bootstrap.</b>
+            <h1 class="display-1">Display 1</h1>
+            <h1 class="display-2">Display 2</h1>
+            <h1 class="display-3">Display 3</h1>
+            <h1 class="display-4">Display 4</h1>
+        </div>
     </body>
 </html>
