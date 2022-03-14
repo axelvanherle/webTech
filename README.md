@@ -3,7 +3,8 @@ Voor het vak webtech hebben we de opdracht gekregen een beetje te werken met de 
 
 ### Checklist van de vershillende talen.
 
-- [ ] Ajax
+- [ ] Ajax  
+
 -- Nog niet aan begonnen.
 - [ ] Bootstrap
 - [ ] CSS
