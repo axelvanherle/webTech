@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <head>
     <style>
+        * {
+            color: purple;
+        }
         h1 {
             color: aliceblue;
+            background-color: blue;
             text-align: center;
         }
-        p {
-            color: red;
+        #hcontrast {
             text-align: center;
+            background-color: black;
+            color: aliceblue;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        p.large {
+            font-size: 300%;
         }
     </style>
     <title>Basic CSS.</title>
@@ -15,6 +28,7 @@
 <body>
 
     <h1>Basis webpagina.</h1>
-    <p>Dit is een basis document waar ik CSS op ga toepassen.</p>
+    <p id="hcontrast">Dit is een basis document waar ik CSS op ga toepassen.</p>
+    <p class="center large">Deze heeft twee classes en een universele!</p>
 
 </body>
