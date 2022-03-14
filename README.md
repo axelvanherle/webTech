@@ -6,7 +6,7 @@ Bij elke taal ben ik niet ver gegaan. Als ik wou kon ik makkelijk verdergaan, en
 Je kan zien welke taal ik voor nu beschou als af.
 
 - [ ] Ajax  
-- [ ] Bootstrap
+- [X] Bootstrap
 - [X] CSS
 - [X] HTML
 - [ ] JavaScript
