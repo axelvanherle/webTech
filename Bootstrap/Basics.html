@@ -123,7 +123,7 @@
             <p class="bg-light text-dark">Light grey background color.</p>
           </div>
 
-          <div class="container p-3 m-3 border">
+        <div class="container p-3 m-3 border">
             <h2>Tables zijn ook mooier met bootstrap!</h2>
             <p>Met de .table-hover class kan ik de tabel een kleur geven als je met de muis erover gaat.</p>            
             <table class="table table-hover">
@@ -152,6 +152,159 @@
                 </tr>
               </tbody>
             </table>
-          </div>
-        </body>
+        </div>
+
+        <div class="container p-3 m-3 border">
+            <h1>Je kan ook afbeeldingen speciale effecten geven!</h1>
+            <p>Hieronder een paar voorbeelden:</p>
+            <img src="aap.jpg" class="rounded" alt="Je hebt de afbeelding niet mee ;)">
+            <img src="aap.jpg" class="img-thumbnail float-right" alt="Je hebt de afbeelding niet mee ;)"> 
+        </div>
+
+        <div class="container p-3 m-3 border">
+            <h1>Je kan ook alerts toevoegen.</h1>
+            <p>Hieronder een copy paste van alle mogenlijke alerts:</p>
+            <div class="alert alert-success">
+              <strong>Success!</strong> This alert box could indicate a successful or positive action.
+            </div>
+            <div class="alert alert-info">
+              <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+            </div>
+            <div class="alert alert-warning">
+              <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+            </div>
+            <div class="alert alert-danger">
+              <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+            </div>
+            <div class="alert alert-primary">
+              <strong>Primary!</strong> Indicates an important action.
+            </div>
+            <div class="alert alert-secondary">
+              <strong>Secondary!</strong> Indicates a slightly less important action.
+            </div>
+            <div class="alert alert-dark">
+              <strong>Dark!</strong> Dark grey alert.
+            </div>
+            <div class="alert alert-light">
+              <strong>Light!</strong> Light grey alert.
+            </div>
+            <hr>
+            <p>Je kan ook links erbijtoevoegen!: </p>
+            <div class="alert alert-danger">
+                <strong>Kijk naar mij!</strong> <a href="#" class="alert-link">Ik ben een link!</a>
+            </div>
+            <hr>
+            <p>Je kan ze ook wel wegklikken hoor ;): </p>
+            <div class="alert alert-success alert-dismissible fade show">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Klik mij weg!</strong> Het doet geen pijn hoor.
+            </div>
+        </div>
+
+        <div class="container p-3 m-3 border">
+            <h1>Je kan ook buttons toevoegen!</h1>
+            <p>Hier zijn "solid" knoppen:</p>
+            <p class="font-weight-lighter">ps: je kan klikken op me zonder dat iets gebeurt.</p>
+            <button type="button" class="btn">Basic</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-link">Link</button>
+            <hr>
+            <p>En hier zijn buttons met een outline:</p>
+            <p class="font-weight-lighter">ps: je kan opnieuw klikken op me zonder dat iets gebeurt.</p>
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            <button type="button" class="btn btn-outline-success">Success</button>
+            <button type="button" class="btn btn-outline-info">Info</button>
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+            <button type="button" class="btn btn-outline-light text-dark">Light</button>
+            <hr>
+            <p>Er zijn ook verschillende groten van knoppen!</p>
+            <p class="font-weight-lighter">ps: je kan opnieuw klikken op me zonder dat iets gebeurt.</p>
+            <button type="button" class="btn btn-primary btn-lg">Groot</button>
+            <button type="button" class="btn btn-primary btn-md">Normaal</button>    
+            <button type="button" class="btn btn-primary btn-sm">Klein</button>
+            <hr>
+            <p>Deze knop doet wel iets!</p>
+            <a href="https://www.google.be" class="btn btn-info" role="button">Take me to google!</a>
+        </div>
+
+        <div class="container p-3 m-3 border">
+            <h1>Misc</h1>
+            <p><b>Deze div zit vol met random prulletjes dat ik eens wou proberen maar geen aparte div waardig vond.</b></p>
+            <hr>
+            <p>Een button groep met een geneste button:</p>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Optie 1</button>
+                <button type="button" class="btn btn-primary">Optie 2</button>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                     Optie 3
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Optie 4</a>
+                    <a class="dropdown-item" href="#">Optie 5</a>
+                  </div>
+                </div>
+            </div> 
+            <hr>
+            <h2>Je kan ook badges toevoegen!<span class="badge badge-success">Kijk eens</span></h2>
+            <hr>
+            <p>Of een progress bar:</p>
+            <div class="progress">
+                <div class="progress-bar" style="width:70%">70%</div>
+            </div> 
+            <hr>
+            <p>Ik moet eventjes laden! ps: je kan lang wachten hoor</p>
+            <div class="spinner-border"></div><br>
+            <div class="spinner-grow text-success"></div><br>
+            <div class="spinner-border spinner-border-sm"></div><br>
+            <button class="btn btn-primary">
+                <span class="spinner-border spinner-border-sm"></span>
+                Loading...
+            </button> 
+            <hr>
+            <p>Je kan ook een pagina knop invoegen: </p>
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="">1</a></li>
+                <li class="page-item"><a class="page-link" href="">2</a></li>
+                <li class="page-item"><a class="page-link" href="">3</a></li>
+                <li class="page-item"><a class="page-link" href="">Next</a></li>
+            </ul>
+            <hr>
+            <p>Je kan ook een lijst toevoegen met badges: </p>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Inbox
+                  <span class="badge badge-primary badge-pill">12</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Ads
+                  <span class="badge badge-primary badge-pill">50</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Junk
+                  <span class="badge badge-primary badge-pill">99</span>
+                </li>
+            </ul>
+            <hr>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Klik mij!</button>
+            <div id="demo" class="collapse show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <br>
+            <br>
+        </div>
+    </body>
 </html>
