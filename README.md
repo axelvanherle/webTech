@@ -5,11 +5,11 @@ Bij elke taal ben ik niet ver gegaan. Als ik wou kon ik makkelijk verdergaan, en
 ### Checklist van de vershillende talen.
 Je kan zien welke taal ik voor nu beschou als af.
 
-- [ ] Ajax  
-- [X] Bootstrap
-- [X] CSS
 - [X] HTML
-- [ ] JavaScript
 - [X] Markdown
+- [X] CSS
+- [X] Bootstrap
+- [ ] JavaScript
+- [ ] Ajax  
 - [ ] PHP
 - [ ] SQL
