@@ -9,7 +9,7 @@ Je kan zien welke taal ik voor nu beschou als af.
 - [X] Markdown
 - [X] CSS
 - [X] Bootstrap
-- [ ] JavaScript
+- [X] JavaScript
 - [ ] Ajax  
 - [ ] PHP
 - [ ] SQL
