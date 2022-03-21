@@ -24,4 +24,38 @@
         console.log("Mijn vierde code!");
     </script>
 
+    <p id="5decode"></p>
+    <script>
+        let var1 = "Mijn vijfde code!";
+        const a = 5,
+        b = 20;
+        let c = a + b;
+        document.getElementById("5decode").innerHTML = var1 + "<br>" + c;
+    </script>
+
+    
+
+    <hr>
+
+    <b><p>Mijn eerste functie:</p></b>
+    <p id="1func"></p>
+    <script>
+        function eersteFunc(a,b){
+            return a + b;
+        }
+        document.getElementById("1func").innerHTML = eersteFunc(5,5);
+    </script>
+
+    <b><p>Mijn eerste object:</p></b>
+    <p id="2func"></p>
+    <script>
+        const axel = {
+            eersteNaam: "Axel",
+            tweedeNaam: "Vanherle",
+            lengte: "1m80",
+            leeftijd: 18
+        };
+        document.getElementById("2func").innerHTML =
+        "Een beetje over mij: naam = " + axel.eersteNaam + " " + axel.tweedeNaam + " Mijn leeftijd is: " + axel.leeftijd;
+    </script>
 </body>
