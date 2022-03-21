@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <head>
     <title>De basis van java.</title>
+    <script src="mijnjava.js"></script>
 </head>
 <body>
-    <p id="demo"></p>
+    <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: gray;">In dit document zie ik de basis van javascript.</h1>
+    <hr><br>
+
+    <p id="eerste"></p>
+    <script>
+        document.getElementById("eerste").innerHTML = "Mijn eerste java code!";
+    </script>
 
     <script>
-    document.getElementById("demo").innerHTML = 5 + 6;
+        document.write("Mijn tweede code!");
     </script>
+
+    <script>
+        window.alert("mijn derde code!");
+    </script>
+
+    <script>
+        console.log("Mijn vierde code!");
+    </script>
+
 </body>
