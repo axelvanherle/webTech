@@ -66,4 +66,59 @@
     <p>Wil je weten hoe laat het is? Druk op de knop.</p>
     <button type="button" onclick="document.getElementById('tijd').innerHTML=Date()">Klik op mij.</button>
     <p id="tijd"></p>
+
+    <b><p>Dit is een array van strings!:</p></b>
+    <p id="arrayeen"></p>
+    <p id="arraytwee"></p>
+    <script>
+        const array1 = ["String 1", "String 2", "String 3"];
+        document.getElementById("arrayeen").innerHTML = array1;
+        document.getElementById("arraytwee").innerHTML = "En dit is het tweede elemant van de array: " + array1[1];
+    </script>
+    <br>
+
+    <b><p>Dit gaat een array ordenen: </p></b>
+    <p id="ord1"></p>
+    <p id="ord2"></p>
+    <script>
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        document.getElementById("ord1").innerHTML = "Voor de ordening: " + fruits;
+
+        fruits.sort();
+
+        fruits.reverse();
+
+        document.getElementById("ord2").innerHTML = "Na de ordening: "+fruits;
+    </script>
+    <br>
+
+    <b><p>Dit gaat een nummer array ordenen: </p></b>
+    <p id="num1"></p>
+    <p id="num2"></p>
+
+    <script>
+        const points = [40, 100, 1, 5, 25, 10];
+        document.getElementById("num1").innerHTML = points;  
+
+        points.sort(function(a, b){return a - b});
+        document.getElementById("num2").innerHTML = points;
+    </script>
+    <br>
+
+    <b><p>Dit gaat een random nummer geven van 1-100: </p></b>
+    <button type="button" onclick="randomNummer()">Klik mij!</button>
+    <p id="randomNum"></p>
+    <br>
+
+    <b><p>Is 5 groter dan 10?: </p></b>
+    <p id="test5<10"></p>
+    <script>
+    let x = 5;
+    document.getElementById("test5<10").innerHTML = (x < 10);
+    </script>
+    <br>
+
+    <b><p>Is 5 groter dan 10?: </p></b>
+
+<br><br><br><br>
 </body>
