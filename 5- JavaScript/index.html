@@ -16,9 +16,8 @@
         document.write("Mijn tweede code!");
     </script>
 
-    <script>
-        window.alert("mijn derde code!");
-    </script>
+    <p id="introKnopa">Mijn derde code!</p>
+    <button type="button" onclick="introKnop()">Klik mij!</button>
 
     <script>
         console.log("Mijn vierde code!");
@@ -32,8 +31,6 @@
         let c = a + b;
         document.getElementById("5decode").innerHTML = var1 + "<br>" + c;
     </script>
-
-    
 
     <hr>
 
@@ -58,4 +55,15 @@
         document.getElementById("2func").innerHTML =
         "Een beetje over mij: naam = " + axel.eersteNaam + " " + axel.tweedeNaam + " Mijn leeftijd is: " + axel.leeftijd;
     </script>
+
+    <hr>
+
+    <button type="button" onclick="eersteKnop()">Een normale knop.</button>
+    <p id="aEersteknop">Klik op de knop!</p>
+    
+    <br>
+
+    <p>Wil je weten hoe laat het is? Druk op de knop.</p>
+    <button type="button" onclick="document.getElementById('tijd').innerHTML=Date()">Klik op mij.</button>
+    <p id="tijd"></p>
 </body>
