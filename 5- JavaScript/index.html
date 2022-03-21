@@ -118,7 +118,34 @@
     </script>
     <br>
 
-    <b><p>Is 5 groter dan 10?: </p></b>
+    <b><p>Laat de corecte groet zien gebaseerd op tijd: </p></b>
+    <p id="cGroet"></p>
+    <script>
+        const tijd = new Date().getHours();
+        let groet;
+        if (tijd < 10) {
+        groet = "Goede morgen";
+        } else if (tijd < 19) {
+        groet = "Goede dag";
+        } else {
+        groet = "Goede avond";
+        }
+        document.getElementById("cGroet").innerHTML = groet;
+    </script>
+    <br>
+
+    <b><p>Een for loop: </p></b>
+    <p id="forloop"></p>
+    <script>
+        const loop = ["1", "2", "3", "4", "5", "6"];
+        
+        let text = "";
+        for (let i = 0; i < loop.length; i++) {
+          text += loop[i] + "<br>";
+        }
+        document.getElementById("forloop").innerHTML = text;
+    </script>
+
 
 <br><br><br><br>
 </body>
