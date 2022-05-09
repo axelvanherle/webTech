@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2>Het XMLHttpRequest Object.</h2>
+
+    <div id="EersteKnop">
+        <p>Ajax gaat deze tekst veranderen!</p>
+        <button type="button" onclick="loadDoc()">Change Content</button>
+    </div>
+
+    <script>
+        function loadDoc() {
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function() {
+            document.getElementById("EersteKnop").innerHTML = this.responseText;
+        }
+        xhttp.open("GET", "Link voor ajax");
+        xhttp.send();
+    }
+    </script>
+
+    </body>
+</html>
