@@ -1,0 +1,4 @@
+rood
+groen
+blauw
+oranje
