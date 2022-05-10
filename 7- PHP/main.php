@@ -89,7 +89,55 @@
     print "Hier is een random getal: "; echo(rand()); print "<br>";
     print "Hier is een random getal tussen 1 en 100: "; echo(rand(1,100)); print "<br>";
     print "We kunnen natuurlijk meer doen, dit is zijn maar een paar voorbeelden!<br><br>";
-	?> 
-
+    
+    echo "Hier zullen we eens een constante gebruiken: <br>";
+    define("Constante1", "Mijn eerste constante!");
+	echo Constante1;
+    echo "<br><br>";
+	
+    echo "Hier zullen we eens een constante array gebruiken: <br>";
+    
+    define("KLEUREN", 
+    [
+  	"Rood",
+  	"Blauw",
+  	"Groen"
+	]);
+	echo "Kleuren 0: "; echo KLEUREN[0]; echo"<br>";
+    echo "Kleuren 1: "; echo KLEUREN[1]; echo"<br>";
+    echo "Kleuren 2: "; echo KLEUREN[2]; echo"<br>";
+    echo "<br>";
+	
+    function eersteFunc()
+    {
+    	echo "Functies zijn ook globaal hier is de print van de constante array kleuren in een functie:<br>";
+        echo "Kleuren 0: "; echo KLEUREN[0]; echo"<br>";
+    	echo "Kleuren 1: "; echo KLEUREN[1]; echo"<br>";
+    	echo "Kleuren 2: "; echo KLEUREN[2]; echo"<br>";
+    }
+    eersteFunc();
+    echo "<br>";
+    
+    echo "We kunnen ook if-elses en operators gebruiken in PHP, ik ga hier niet diep in omdat dit quassi hetzelfde is in C.<br>";
+    $rand = rand(1,9);
+    echo "Hiervoor zullen we aan random getal gebruiken (1-9). Random getal: $rand <br>";
+    if ($rand <= '3')
+    {
+    	print "Het getal is kleiner dan of gelijk aan 3!<br>";
+    }
+    elseif (($rand > '3') && ($rand <= '6'))
+    {
+    	print "Het getal is groter dan 3 maar kleiner dan of gelijk aan 6<br>";
+    }
+	elseif (($rand > '6') && ($rand <= '9'))
+    {
+    	print "Het getal is groter dan 6 maar kleiner dan of gelijk aan 9<br>";
+    }
+    else
+    {
+    	print "ERROR<br>";
+    }
+    
+    ?> 
 	</body>
 </html>
