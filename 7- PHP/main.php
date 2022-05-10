@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+	<body>
+
 <?php
 	$naam = "Axel Vanherle";
 	echo "Hello World! Mijn eerste PHP code<br><br>";
@@ -76,4 +80,7 @@
     print "Hoeveelheid woorden in de string:"; echo str_word_count($str1); print "<br>";
     print "Omgekeerde van de string:"; echo strrev($str1); print "<br>";
     print "We kunnen natuurlijk meer doen, dit is zijn maar een paar voorbeelden!<br>";
-?> 
+	?> 
+
+	</body>
+</html>
