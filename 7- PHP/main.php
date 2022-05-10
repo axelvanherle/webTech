@@ -79,7 +79,16 @@
     print "Lengte van de string:"; echo strlen($str1); print "<br>";
     print "Hoeveelheid woorden in de string:"; echo str_word_count($str1); print "<br>";
     print "Omgekeerde van de string:"; echo strrev($str1); print "<br>";
-    print "We kunnen natuurlijk meer doen, dit is zijn maar een paar voorbeelden!<br>";
+    print "We kunnen natuurlijk meer doen, dit is zijn maar een paar voorbeelden!<br><br>";
+    
+    print "PHP heeft ook ingebouwde functies met math!: <br>";
+    print "Hier is PI: "; echo (pi()); print "<br>";
+    echo "We kunnen ook de min/max van deze getallen vinden (0, 150, 30, 20, -8, -200):<br>";
+    print "Hier is de min: "; echo(min(0, 150, 30, 20, -8, -200)); print "<br>";
+    print "Hier is de max: "; echo(max(0, 150, 30, 20, -8, -200)); print "<br>";
+    print "Hier is een random getal: "; echo(rand()); print "<br>";
+    print "Hier is een random getal tussen 1 en 100: "; echo(rand(1,100)); print "<br>";
+    print "We kunnen natuurlijk meer doen, dit is zijn maar een paar voorbeelden!<br><br>";
 	?> 
 
 	</body>
