@@ -71,6 +71,15 @@
     print "<p><ins>Deze tekst is underlined.</ins></p>";
     print "<p>Deze tekst is <sub>Subscript.</sub></p>";
     print "<p>En deze is <sup>Superscript.</sup></p>";
+    
+    echo "<br><br>";
+    echo "We kunnen ook spelen met strings in PHP:<br>";
+    $str1 = "Dit is een string";
+    echo "We zullen <b>$str1</b> gebruiken als voorbeeld.<br>";
+    print "Lengte van de string:"; echo strlen($str1); print "<br>";
+    print "Hoeveelheid woorden in de string:"; echo str_word_count($str1); print "<br>";
+    print "Omgekeerde van de string:"; echo strrev($str1); print "<br>";
+    print "We kunnen natuurlijk meer doen, dit is zijn maar een paar voorbeelden!<br>";
 	?> 
 
 	</body>
