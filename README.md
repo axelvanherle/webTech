@@ -14,5 +14,5 @@ Je kan zien welke taal ik voor nu beschou als af.
 - [X] Bootstrap
 - [X] JavaScript
 - [ ] Ajax  
-- [ ] PHP
+- [X] PHP
 - [ ] SQL
