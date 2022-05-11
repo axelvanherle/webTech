@@ -138,6 +138,17 @@
     	print "ERROR<br>";
     }
     
+    echo "We kunnen ook werken met loops in PHP:<br>";
+    $getal4 = 1;
+	while($getal4 <= 5) 
+    {
+  	echo "Het nummer is nu: $getal4 <br>";
+  	$getal4++;
+	}
+    
+    echo"<br><br><br><b>We zijn nu klaar met PHP!</b>";
+    
+    //Gemaakt door Axel Vanherle
     ?> 
 	</body>
 </html>
