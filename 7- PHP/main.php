@@ -103,7 +103,7 @@
   	"Blauw",
   	"Groen"
 	]);
-	echo "Kleuren 0: "; echo KLEUREN[0]; echo"<br>";
+    echo "Kleuren 0: "; echo KLEUREN[0]; echo"<br>";
     echo "Kleuren 1: "; echo KLEUREN[1]; echo"<br>";
     echo "Kleuren 2: "; echo KLEUREN[2]; echo"<br>";
     echo "<br>";
@@ -140,7 +140,7 @@
     
     echo "We kunnen ook werken met loops in PHP:<br>";
     $getal4 = 1;
-	while($getal4 <= 5) 
+    while($getal4 <= 5) 
     {
   	echo "Het nummer is nu: $getal4 <br>";
   	$getal4++;
