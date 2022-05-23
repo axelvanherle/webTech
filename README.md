@@ -49,10 +49,9 @@ Je kan zien welke taal ik voor nu beschou als af.
 - [X] URL naar Git dev branch
 - https://github.com/axelvanherle/webTech/tree/dev
 - [X] 2 URL's voor elke feature branch
-- https://github.com/axelvanherle/webTech/tree/feature1
-- - Hier BV bootstrap aan de experiment branch toegevoegt.
-- - 
+- https://github.com/axelvanherle/webTech/commit/6da7bb6446e6f6fa2d82e7c2ff52a1de4ad67d76
+- https://github.com/axelvanherle/webTech/commit/0c0dc1cca19670cf4f280a41f0425f657807ba34
 - [X] URL naar resolved merge conflict commit
-- github.com/axelvanherle/webTech/commit/4c29af5ae051e6b302e57b81398cc3f31083089c
+- https://github.com/axelvanherle/webTech/commit/4c29af5ae051e6b302e57b81398cc3f31083089c
 
 
