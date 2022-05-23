@@ -53,6 +53,6 @@ Je kan zien welke taal ik voor nu beschou als af.
 - - Hier BV bootstrap aan de experiment branch toegevoegt.
 - - 
 - [X] URL naar resolved merge conflict commit
-- https://github.com/axelvanherle/webTech/tree/dev/9-%20MergeConflict
+- github.com/axelvanherle/webTech/commit/4c29af5ae051e6b302e57b81398cc3f31083089c
 
 
