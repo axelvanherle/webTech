@@ -36,7 +36,8 @@ Je kan zien welke taal ik voor nu beschou als af.
 - https://github.com/axelvanherle/webTech/tree/live/5-%20JavaScript
 - http://94.110.66.23/webTechJS.html
 - [X] URL van waar de Ajax start en naar waar de ajax call gestuurd wordt. DUS 2 URLs !!!
-- Niet gedaan.
+- http://94.110.66.23/ajax.html
+- http://94.110.66.23/ajax_info.txt
 - [X] URL naar php code (GitHub !)
 - https://github.com/axelvanherle/webTech/tree/live/7-%20PHP
 - http://94.110.66.23/webTechPHP.php
