@@ -13,9 +13,9 @@ Je kan zien welke taal ik voor nu beschou als af.
 - [X] CSS
 - [X] Bootstrap
 - [X] JavaScript
-- [ ] Ajax  
+- [X] Ajax  
 - [X] PHP
-- [ ] SQL
+- [X] SQL
 
 
 ### Checklist voor de opdracht te uploaden.
@@ -42,7 +42,7 @@ Je kan zien welke taal ik voor nu beschou als af.
 - https://github.com/axelvanherle/webTech/tree/live/7-%20PHP
 - http://94.110.66.23/webTechPHP.php
 - [X] URL naar SQL bestand (GitHub!)
-- Niet gedaan.
+- https://github.com/axelvanherle/webTech/tree/live/8-%20SQL
 - [X] URL naar GitHub
 - https://github.com/axelvanherle/webTech
 - [X] URL naar GitHub live branch
