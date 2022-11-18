@@ -20,27 +20,27 @@ Je kan zien welke taal ik voor nu beschou als af.
 
 ### Checklist voor de opdracht te uploaden.
 - [X] URL van de server
-- http://94.110.66.23/test.php
+- SHUT DOWN
 - [X] Link naar een pagina met HTML
 - https://github.com/axelvanherle/webTech/tree/live/1-%20HTML
-- http://94.110.66.23/webTechHTML.html
+- SHUT DOWN
 - [X] URL naar MarkDown pagina (git?)
 - https://github.com/axelvanherle/webTech/blob/live/2-%20Markdown/BasisMarkdown.markdown
 - [X] URL naar CSS bestand
 - https://github.com/axelvanherle/webTech/tree/live/3-%20CSS
-- http://94.110.66.23/webTechCSS.html
+- SHUT DOWN
 - [X] URL naar pagina dat Bootstrap heeft gebruikt
 - https://github.com/axelvanherle/webTech/tree/live/4-%20Bootstrap
-- http://94.110.66.23/webTechBootstrap.html
+- SHUT DOWN
 - [X] URL naar JavaScript code/bestand
 - https://github.com/axelvanherle/webTech/tree/live/5-%20JavaScript
-- http://94.110.66.23/webTechJS.html
+- SHUT DOWN
 - [X] URL van waar de Ajax start en naar waar de ajax call gestuurd wordt. DUS 2 URLs !!!
-- http://94.110.66.23/ajax.html
-- http://94.110.66.23/ajax_info.txt
+- SHUT DOWN
+- SHUT DOWN
 - [X] URL naar php code (GitHub !)
 - https://github.com/axelvanherle/webTech/tree/live/7-%20PHP
-- http://94.110.66.23/webTechPHP.php
+- SHUT DOWN
 - [X] URL naar SQL bestand (GitHub!)
 - https://github.com/axelvanherle/webTech/tree/live/8-%20SQL
 - [X] URL naar GitHub
